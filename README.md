@@ -1,73 +1,33 @@
-# Welcome to your Lovable project
+# Vehicle Registration Dashboard
 
-## Project info
+## 📌 Overview
+This is an **interactive dashboard** built for analyzing **vehicle registration data** from the [Vahan Dashboard](https://vahan.parivahan.gov.in/).  
+The project is designed with an **investor’s perspective** in mind, focusing on **growth trends** in vehicle registrations.
 
-**URL**: https://lovable.dev/projects/09e083e6-c515-46aa-9521-4ba7f987bde8
+The dashboard:
+- Displays **Year-over-Year (YoY)** and **Quarter-over-Quarter (QoQ)** growth.
+- Breaks down data by **vehicle category** (2W/3W/4W) and **manufacturer**.
+- Offers filters, date range selection, and trend visualizations.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
+- 📅 **Date range selection** for custom analysis.
+- 🚗 **Filter by vehicle category** (2W, 3W, 4W).
+- 🏭 **Filter by manufacturer**.
+- 📈 Graphs showing **registration trends** and **% change**.
+- 📊 Both **YoY** and **QoQ** growth metrics.
+- 💡 Designed for **investor-friendly insights**.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/09e083e6-c515-46aa-9521-4ba7f987bde8) and start prompting.
+## 🛠️ Tech Stack
+- **Python** – Data processing & analysis.
+- **Streamlit** – Interactive UI development.
+- **SQL** – Data manipulation (if applicable).
+- **Pandas & NumPy** – Data cleaning and transformation.
+- **Matplotlib / Plotly** – Data visualization.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/09e083e6-c515-46aa-9521-4ba7f987bde8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
